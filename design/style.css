@@ -1,0 +1,171 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Hahmlet', serif;
+}
+
+p, a {
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+}
+
+video {
+    width: 60%;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+.nav-left {
+    display: flex;
+    height: 32px;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    height: 32px;
+    align-items: center;
+}
+
+.nav-right li {
+    display: inline;
+    margin-left: 16px;
+}
+
+
+/* FIRST_PART */
+
+.first-part {
+    display: flex;
+    background-color: lightgray;
+}
+
+.first-part img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.fp-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8%;
+}
+
+.fp-text h1 {
+    line-height: 28px;  
+    font-size: 28px;
+}
+
+.fp-text p {
+    margin: 22px 0;
+}
+
+.fp-text button {
+    padding: 8px 0;
+}
+
+
+/* SECOND_PART */
+
+.second-part {
+    display: flex;
+}
+
+.SP-left {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.SP-left img {
+    width: 100%;
+}
+
+.SP-left p {
+    margin: 24px 0;
+}
+
+.SP-left #name {
+    margin-bottom: 32px;
+    font-weight: 500;
+}
+
+.SP-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+.info {
+    display: flex;
+}
+
+.info img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.info .info-text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-text p {
+    margin: 8px 0;
+}
+
+
+/* THIRD_PART */
+
+.third-part {
+    padding: 32px 40px;
+    background-color: lightgoldenrodyellow;
+}
+
+.third-part h2 {
+    margin-bottom: 32px;
+    text-align: center
+}
+
+.uni-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.option-block {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    width: 25%;
+    height: auto;
+    margin: 16px;
+}
+
+.opt-text {
+    padding: 16px;
+}
+
+.opt-text p {
+    margin: 8px 0;
+}
